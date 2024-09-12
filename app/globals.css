@@ -15,17 +15,13 @@ body {
 
 .container {
   margin: 30px auto;
-  width: 500px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-/* New rule to set width for all components */
-.container > * {
-  width: 430px;
-}
 
 .navbar {
   background: #000;
